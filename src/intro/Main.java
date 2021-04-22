@@ -7,15 +7,17 @@ public class Main {
 		String subeButonu = "Ýnternet Subesi Butonu";
 		System.out.println(subeButonu);
 
-		int dolarDun = 650;
-		int dolarBugun = 1650;
+		double dolarDun = 8;
+		double dolarBugun = 7;
+		int vade = 3;
+				
 
 		if (dolarDun > dolarBugun) {
-			System.out.println("Arrow Down");
+			System.out.println("Dolar Dün : " + dolarDun + "Arrow Down " + "Dolar Bugün : " + dolarBugun );
 		} else if (dolarDun < dolarBugun) {
-			System.out.println("Arrow Up");
+			System.out.println("Dolar Dün : " + dolarDun + "Arrow Up " + "Dolar Bugün : " + dolarBugun );
 		} else {
-			System.out.println("Stable Arrow");
+			System.out.println("Dolar Dün : " + dolarDun + "Arrow Stable " + "Dolar Bugün : " + dolarBugun );
 		}
 	}
 
