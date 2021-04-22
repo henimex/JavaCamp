@@ -12,21 +12,18 @@ public class Main {
 		int vade = 3;
 				
 		if (dolarDun > dolarBugun) {
-			System.out.println("Dolar Dün : " + dolarDun + "Arrow Down " + "Dolar Bugün : " + dolarBugun );
+			System.out.println("Dolar Dün \t : " + dolarDun + " \t Arrow Down " + " \t\nDolar Bugün \t : " + dolarBugun );
 		} else if (dolarDun < dolarBugun) {
-			System.out.println("Dolar Dün : " + dolarDun + "Arrow Up " + "Dolar Bugün : " + dolarBugun );
+			System.out.println("Dolar Dün \t : " + dolarDun + " \t Arrow Up " + " \t\nDolar Bugün \t : " + dolarBugun );
 		} else {
-			System.out.println("Dolar Dün : " + dolarDun + "Arrow Stable " + "Dolar Bugün : " + dolarBugun );
+			System.out.println("Dolar Dün \t : " + dolarDun + " \t Arrow Stable " + " \t\nDolar Bugün \t : " + dolarBugun );
 		}
 		
-		
 		veriTipleri();
-		
 	}
 	
 	public static void veriTipleri() {
 		
-
 		byte sekizBit = 127;
 		short onaltiBit = 32767;
 		int otuzikiBit = 2147483647;
@@ -38,20 +35,21 @@ public class Main {
 		String metin = "Stringlerin rengide türbe yeþili haa";
 				
 		boolean dogruYanlis = true;
-		System.out.println("Veri Tipleri : Atanabilecek maximum degerler tanýmlanmýþtýr. Pozitif olduðu gibi ayný deðerin Negatifi de verilebilir.");
+		
+		System.out.println("Veri Tipleri \t : Atanabilecek maximum degerler tanýmlanmýþtýr. Pozitif olduðu gibi ayný deðerin Negatifi de verilebilir.");
 		System.out.println("---------------------------------------------------------------");
-		System.out.println("Byte Deðer: " + sekizBit);
-		System.out.println("Short Deðer: " + onaltiBit);
-		System.out.println("Integer Deðer: " + otuzikiBit);
-		System.out.println("Long Deðer: " + altmisdortBit);
+		System.out.println("Byte Deðer \t : " + sekizBit);
+		System.out.println("Short Deðer \t : " + onaltiBit);
+		System.out.println("Integer Deðer \t : " + otuzikiBit);
+		System.out.println("Long Deðer \t : " + altmisdortBit);
 		 
-		System.out.println("Float Deger: " + folatOtuziki);
-		System.out.println("Double Deger: " + dbaltmisDort);
+		System.out.println("Float Deger  \t : " + folatOtuziki);
+		System.out.println("Double Deger \t : " + dbaltmisDort);
 		 
-		System.out.println("Char Deger: " + yazi1);
-		System.out.println("String Deger: " + metin);
+		System.out.println("Char Deger \t : " + yazi1);
+		System.out.println("String Deger \t : " + metin);
 		 
-		System.out.println("Boolean Dogru: " + dogruYanlis);
+		System.out.println("Boolean Dogru  \t : " + dogruYanlis);
 	}
 
 }
